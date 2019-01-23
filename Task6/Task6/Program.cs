@@ -6,7 +6,7 @@ namespace Task6
     {
         static void Main(string[] args)
         {
-            double ordertotal = 0.0;
+            double ordertotal = 0.0; 
             double totaltax = 0.0;
             double grandtotal = 0.0;
             double statetax = 0.0;

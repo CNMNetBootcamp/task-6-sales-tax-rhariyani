@@ -1,7 +1,7 @@
 ////set up
 
 //note: all in green commnets because program show run time error due to this file
-
+ 
 double ordertotal = 0.0;
 double totaltax = 0.0;
 double grandtotal = 0.0;
