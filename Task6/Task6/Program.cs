@@ -13,7 +13,7 @@ namespace Task6
             double salestax = 0.0;
             
             double tax1= 0.03;
-            double tax2= 0.05;
+            double tax2= 0.05;   
 
 
             Console.WriteLine("What is your ordertotal? ");

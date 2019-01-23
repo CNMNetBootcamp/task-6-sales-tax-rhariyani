@@ -19,7 +19,7 @@ double tax2 = 0.05;
 
 //    salestax=ordertotal*tax1 
 //put "The salestax is:"+Salestax
-//    statetax=ordertotal*tax2       
+//    statetax=ordertotal*tax2           
 //put "The statetax is:"+statetax
 
 //    totaltax amt = salestax + statetax;
