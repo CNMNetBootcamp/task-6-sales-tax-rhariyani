@@ -3,12 +3,12 @@
 //note: all in green commnets because program show run time error due to this file
  
 double ordertotal = 0.0;
-double totaltax = 0.0;
+double totaltax = 0.0; 
 double grandtotal = 0.0;
 double statetax = 0.0;
 double salestax = 0.0;
 double tax1 = 0.03;
-double tax2 = 0.05;
+double tax2 = 0.05; 
 
 ////input
 
