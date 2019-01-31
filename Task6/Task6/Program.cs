@@ -16,19 +16,22 @@ namespace Task6
 
             do
             {
+                do {
 
+                    Console.WriteLine("What is your ordertotal? ");
 
-                Console.WriteLine("What is your ordertotal? ");
-                ordertotal = double.Parse(Console.ReadLine());
+                } while (!Double.TryParse(Console.ReadLine(), out ordertotal));
 
-                grandtotal = Taxcal(ordertotal, ref statetax, ref salestax);
+                grandtotal = Taxcal(ordertotal, statetax, salestax);
+                
                 Console.WriteLine("Would you like to do another order (Y/N)");
                 question = Console.ReadLine();
 
             } while (question == "Y");
+            
 
         }
-        private static double Taxcal(double ordertotal, ref double statetax, ref double salestax)
+        private static double Taxcal(double ordertotal, double statetax, double salestax)
         {
             double grandtotal;
             salestax = ordertotal * salestax;
