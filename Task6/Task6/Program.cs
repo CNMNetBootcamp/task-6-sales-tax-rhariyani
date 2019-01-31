@@ -5,7 +5,7 @@ namespace Task6
     class Program
     {
         static void Main(string[] args)
-
+            //Good
         {
             double ordertotal = 0.0;
             //double totaltax = 0.0;
