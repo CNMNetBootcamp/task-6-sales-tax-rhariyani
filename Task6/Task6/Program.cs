@@ -20,7 +20,7 @@ namespace Task6
 
                 Console.WriteLine("What is your ordertotal? ");
                 ordertotal = double.Parse(Console.ReadLine());
-
+                //TODO: Dont use a ref. 
                 grandtotal = Taxcal(ordertotal, ref statetax, ref salestax);
                 Console.WriteLine("Would you like to do another order (Y/N)");
                 question = Console.ReadLine();
@@ -28,6 +28,7 @@ namespace Task6
             } while (question == "Y");
 
         }
+        // Dont use ref
         private static double Taxcal(double ordertotal, ref double statetax, ref double salestax)
         {
             double grandtotal;
