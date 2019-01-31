@@ -18,7 +18,7 @@ namespace Task6
 
             Console.WriteLine("What is your ordertotal? ");
             ordertotal = double.Parse(Console.ReadLine());
-
+            //
             // TODO: Resubmit. There is a lot missing. Make a function and pass the sales taxes values in.
             //The user should be asked what the order total was. The tax calculation should be done using a module and the tax percentage passed in. State tax is 5% and local tax is 3%. Output to the screen the subtotal, the taxes amounts and the grand total.
 
