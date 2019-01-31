@@ -39,7 +39,7 @@ namespace Task6
             Console.WriteLine("The state tax on your oder is:" + statetax);
             Console.WriteLine("The grandtotal on your oder is:" + grandtotal);
             Console.ReadLine();
-            return grandtotal;
+            return grandtotal; 
         }
 
     }
